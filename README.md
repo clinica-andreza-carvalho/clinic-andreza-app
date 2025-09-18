@@ -5,12 +5,16 @@
 
 Através de estratégias focadas em inovação, atendimento personalizado e resultados eficazes, queremos ampliar nossa presença no mercado e fortalecer o relacionamento com cada cliente, garantindo satisfação e confiança em todos os momentos.  </p>
 
+---
+
 <h2> 🚻 Público-Alvo: </h2>
 <p> Somos uma clínica de estética e beleza dedicada a cuidar da sua autoestima e bem-estar. Nosso público-alvo abrange pessoas entre 20 e 60 anos que buscam tratamentos personalizados para valorizar a sua beleza natural.
 
 Por meio do nosso site, queremos oferecer um espaço de informação, inspiração e atendimento, ajudando nossos clientes a transformarem suas vidas. Nosso objetivo é contribuir para a mudança estética e o aumento da confiança, seja corrigindo imperfeições, aliviando inseguranças ou realçando seus melhores traços.
 
 Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa, promovendo resultados naturais e duradouros, sempre com o suporte de profissionais qualificados e tecnologias de ponta.  </p>
+
+---
 
 <h2> 🏥 Funcionalidades: </h2>
 
@@ -29,8 +33,6 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 • Gerenciamento de Agendamentos: Alteração, cancelamento e consulta de agendamentos já realizados.
 
 • Visualização da Agenda: Profissionais podem consultar sua agenda diária/semanal.
-
-• Histórico de Atendimentos: Consulta de todos os agendamentos realizados por um cliente.
 
 • Confirmação de Agendamento: Exibição de mensagem de sucesso ou envio de confirmação ao cliente.
 
