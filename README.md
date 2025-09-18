@@ -40,15 +40,20 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 
 ---
 
-## REQUESITOS FUNCIONAIS 🚀  <br> <br>
+## REQUISITOS FUNCIONAIS 🚀  <br><br>
 
-| Funcionais ✔️  | Não Funcionais  ❌|
-| ------------- |:-------------:|
-| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo      |
-| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar      |
-| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz      |
-| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo      |
-| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar      |
-| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz      |
+| Funcionais ✔️  | Não Funcionais ❌ |
+| ------------- | ----------------- |
+| O sistema deve permitir o cadastro e login do cliente antes do agendamento. | O sistema deve garantir que os agendamentos sejam feitos apenas dentro do horário comercial da clínica (8h às 20h). |
+| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados). | O sistema deve ser responsivo, funcionando bem em celulares e desktops. |
+| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário. | O sistema deve garantir a segurança dos dados de cadastro e login dos clientes. |
+| O sistema deve garantir que o agendamento seja feito com pelo menos 24 horas de antecedência. | O sistema deve ser intuitivo e simples, facilitando o uso dos clientes. |
+| O sistema deve registrar o nome do cliente, o tratamento escolhido, a data e o horário da consulta agendada. |  |
+| O sistema deve impedir o agendamento em horários já ocupados. |  |
+| O sistema deve disponibilizar uma página de confirmação do agendamento com os dados preenchidos. |  |
+| O sistema deve possibilitar, em futuras versões, o cancelamento e remarcação pelo cliente. |  |
+| O sistema deve enviar uma confirmação ou aviso por e-mail após o agendamento (previsto para futuras versões). |  |
+| O sistema deve permitir tratamentos com durações variadas, mas o agendamento é feito em blocos horários definidos (ex: 1 hora por agendamento, a definir). |  |
+
 
 ---
