@@ -37,3 +37,11 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 • Confirmação de Agendamento: Exibição de mensagem de sucesso ou envio de confirmação ao cliente.
 
 • Interface Responsiva: Acesso ao site em celular, tablet ou computador.
+
+## REQUESITOS FUNCIONAIS
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
