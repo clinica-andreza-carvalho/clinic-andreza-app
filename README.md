@@ -40,8 +40,11 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 
 ## REQUESITOS FUNCIONAIS
 
-| Left columns  | Right columns |
+| Funcionais  | Não Funcionais |
 | ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
+| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo     |
+| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar     |
+| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz     |
+| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo     |
+| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar     |
+| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz     |
