@@ -38,13 +38,13 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 
 • Interface Responsiva: Acesso ao site em celular, tablet ou computador.
 
-## REQUESITOS FUNCIONAIS
+## REQUESITOS FUNCIONAIS 🚀
 
-| Funcionais  | Não Funcionais |
+| Funcionais ✔️  | Não Funcionais  ❌|
 | ------------- |:-------------:|
-| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo     |
-| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar     |
-| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz     |
-| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo     |
-| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar     |
-| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz     |
+| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo      |
+| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar      |
+| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz      |
+| O sistema deve permitir o cadastro e login do cliente antes do agendamento.      | right foo      |
+| O cliente deve escolher a data do agendamento em uma página com calendário que mostra apenas os dias disponíveis (segunda a sábado, exceto feriados).     | right bar      |
+| Após escolher o dia, o cliente deve escolher o horário disponível dentro do horário de funcionamento (8h às 20h), considerando que somente um agendamento pode ocorrer por horário.      | right baz      |
