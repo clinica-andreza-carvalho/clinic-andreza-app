@@ -14,24 +14,24 @@ Aqui, cada tratamento é pensado para respeitar a individualidade de cada pessoa
 
 <h2> 🏥 Funcionalidades: </h2>
 
-Cadastro de Clientes: Registro de clientes com dados pessoais (nome, telefone, e-mail).
+• Cadastro de Clientes: Registro de clientes com dados pessoais (nome, telefone, e-mail).
 
-Cadastro de Profissionais: Inclusão de esteticistas com suas especialidades e contatos.
+• Cadastro de Profissionais: Inclusão de esteticistas com suas especialidades e contatos.
 
-Cadastro de Tratamentos: Listagem de serviços oferecidos, com nome, descrição, preço e duração.
+• Cadastro de Tratamentos: Listagem de serviços oferecidos, com nome, descrição, preço e duração.
 
-Agendamento Online: Sistema de marcação de tratamentos escolhendo data, hora e serviço.
+• Agendamento Online: Sistema de marcação de tratamentos escolhendo data, hora e serviço.
 
-Cálculo de Duração: Definição automática do horário de término de acordo com a duração do tratamento (1h ou 2h).
+• Cálculo de Duração: Definição automática do horário de término de acordo com a duração do tratamento (1h ou 2h).
 
-Validação de Horários: Agendamentos disponíveis apenas dentro do horário de funcionamento (08:00 às 20:00).
+• Validação de Horários: Agendamentos disponíveis apenas dentro do horário de funcionamento (08:00 às 20:00).
 
-Gerenciamento de Agendamentos: Alteração, cancelamento e consulta de agendamentos já realizados.
+• Gerenciamento de Agendamentos: Alteração, cancelamento e consulta de agendamentos já realizados.
 
-Visualização da Agenda: Profissionais podem consultar sua agenda diária/semanal.
+• Visualização da Agenda: Profissionais podem consultar sua agenda diária/semanal.
 
-Histórico de Atendimentos: Consulta de todos os agendamentos realizados por um cliente.
+• Histórico de Atendimentos: Consulta de todos os agendamentos realizados por um cliente.
 
-Confirmação de Agendamento: Exibição de mensagem de sucesso ou envio de confirmação ao cliente.
+• Confirmação de Agendamento: Exibição de mensagem de sucesso ou envio de confirmação ao cliente.
 
-Interface Responsiva: Acesso ao site em celular, tablet ou computador.
+• Interface Responsiva: Acesso ao site em celular, tablet ou computador.
