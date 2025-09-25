@@ -33,10 +33,27 @@ header{
     justify-content: center;
     top: px;
     left: 2000px;
-    right: 20px;
     width: 1900px;
+    right: 20px;
 
 }
+
+.logo {
+  position: absolute;   
+  left: 250px;  
+  top: 35px;       
+}
+
+.logo img {
+  width: 290px;            
+  height: 290px;           
+  object-fit: cover;        
+  border: 2px solid #eed7d6 ;   
+  border-radius: 50%;       
+  display: block;           
+}
+
+
 
 h1{
     font-family: 'The Nautigal', cursive;
@@ -49,8 +66,9 @@ h1{
     width: 100%;
     font-style: normal;
     font-weight: normal;
-}
-h2{
+    left: 350px;
+  }
+  h2{
     font-family: 'Spectral SC', cursive;
     position: absolute;
     top: 200px;
@@ -61,7 +79,8 @@ h2{
     width: 100%;
     font-style: normal;
     font-weight: normal;
-}
+    left: 350px;
+  }
 
 .social-icons {
   display: flex;
