@@ -1,54 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="./login.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Clínica Andreza Carvalho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./login.css">
 </head>
 <body>
 
-   <div>
-    <dialog flex>
-        <figure flex>
-          <img class="logo" src="" alt="" />
-          <img class="" src="" alt="" />
-        </figure>
-        <aside flex>
-          <h1 class="modal-title">Login</h1>
-          <main class="form-container">
-            <form class="auth-form" flex>
-              <div class="input-wrapper" flex>
-                <section flex>
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="Digite seu email" flex />
-                </section>
-                <section flex>
-                  <label for="password">Senha</label>
-                  <input type="password" id="password" name="password" placeholder="**********" flex />
-                </section>
-                <button class="btn-link" type="button">Esqueceu a senha?</button>
-              </div>
-              <button type="submit" class="btn-submit">Entrar</button>
-            </form>
-          </main>
-          <section>
-            <div class="option-container" flex>
-              <div class="option-wrapper" flex>
-                <div class="line"></div>
-                <p class="option-text">ou</p>
-                <div class="line"></div>
-              </div>
-              <p>
-                "Ainda não possui conta?"
-                <button>Cadastrar</button>
-              </p>
-            </div>
-          </section>
-        </aside>
-      </dialog>
-   </div>
-      
+  <dialog open>
+    <div class="header">
+      <div class="logo-circle" aria-label="Logo Clínica Andreza Carvalho">
+        <img src="./Logo-clinica.png" alt="">
+          <path d="M32 10c-8 0-12 14-12 22s4 22 12 22 12-14 12-22-4-22-12-22z" />
+          <path d="M24 44c0-4 8-8 8-16s-8-8-8-8" stroke="white" stroke-width="2" fill="none" />
+        </svg>
+      </div>
+      <div>
+        <h1 class="clinic-name">Clínica Andreza Carvalho</h1>
+        <p class="subtitle">Fisioterapeuta Dermatofuncional</p>
+      </div>
+    </div>
+
+    <form>
+      <h2 style="color:#5a3e3e; margin-bottom: 20px;">Área de Login</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" placeholder="**********" required />
+
+      <button type="button" class="forgot-password">Esqueceu a senha?</button>
+
+      <button type="submit" class="btn-submit">Entrar</button>
+    </form>
+
+    <div class="register-section">
+      Ainda não possui conta?
+      <button type="button">Cadastrar</button>
+    </div>
+  </dialog>
+
 </body>
 </html>
-
