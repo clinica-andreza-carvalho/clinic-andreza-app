@@ -104,3 +104,13 @@ h1 {
 }
 
 }
+
+.classe-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* espaço entre os ícones */
+  position: absolute;
+  top: 360px; 
+  right: 195px;
+}
