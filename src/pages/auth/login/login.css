@@ -27,7 +27,6 @@
     padding: 35px 47px;
   }
 
-  /* Logo e topo */
   .header {
     display: flex;
     align-items: center;
@@ -46,12 +45,6 @@
     box-shadow: 0 0 6px #dca7a7;
   }
 
-  .logo-circle svg {
-    width: 40px;
-    height: 40px;
-    fill: white;
-  }
-
   .clinic-name {
     font-family: 'Dancing Script', cursive;
     font-size: 1.6rem;
@@ -66,7 +59,6 @@
     margin-top: 3px;
   }
 
-  /* Form */
   form {
     display: flex;
     flex-direction: column;
