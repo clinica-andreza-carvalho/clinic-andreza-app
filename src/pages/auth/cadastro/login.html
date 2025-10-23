@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cadastro - Clínica Andreza Carvalho</title>
+  <title>Login - Clínica Andreza Carvalho</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./cadastro.css">
 </head>
@@ -13,6 +13,9 @@
     <div class="header">
       <div class="logo-circle">
         <img src="/src/assets/imagens-header/image/logo-clinica.png" alt="logo-clinica">
+          <path d="M32 10c-8 0-12 14-12 22s4 22 12 22 12-14 12-22-4-22-12-22z"/>
+          <path d="M24 44c0-4 8-8 8-16s-8-8-8-8" stroke="white" stroke-width="2" fill="none"/>
+        </svg>
       </div>
       <div>
         <h1 class="clinic-name">Clínica Andreza Carvalho</h1>
@@ -21,10 +24,7 @@
     </div>
 
     <form>
-      <h2 style="color:#5a3e3e; margin-bottom: 20px;">Cadastro de Usuário</h2>
-
-      <label for="nome">Nome completo</label>
-      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+      <h2 style="color:#5a3e3e; margin-bottom: 20px;">Área de Login</h2>
 
       <label for="email">Email</label>
       <input type="email" id="email" name="email" placeholder="Digite seu email" required />
@@ -32,15 +32,14 @@
       <label for="password">Senha</label>
       <input type="password" id="password" name="password" placeholder="**********" required />
 
-      <label for="confirm-password">Confirmar senha</label>
-      <input type="password" id="confirm-password" name="confirm-password" placeholder="**********" required />
+      <button type="button" class="forgot-password" onclick="window.location.href='esqueceuasenha.html'">Esqueceu a senha?</button>
 
-      <button type="submit" class="btn-submit">Cadastrar</button>
+      <button type="submit" class="btn-submit">Entrar</button>
     </form>
 
     <div class="register-section">
-      Já possui conta?
-      <button type="button" onclick="window.location.href='login.html'">Entrar</button>
+      Ainda não possui conta?
+      <button type="button" onclick="window.location.href='cadastro.html'">Cadastrar</button>
     </div>
   </dialog>
 
