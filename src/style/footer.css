@@ -23,7 +23,6 @@ footer .header-content {
   gap: 10px;
 }
 
-/* título */
 footer h1 {
   font-family: 'The Nautigal', cursive;
   font-size: 70px;
@@ -53,7 +52,6 @@ footer h2 {
   margin-top: 10px;
 }
 
-/* ícones sociais */
 footer .social-icons {
   display: flex;
   justify-content: center;
