@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Cliente | Adreza Carvalho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4b3b3a3e07.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <div class="logo-img"></div>
+        <div class="logo-text">
+          <h1>Adreza Carvalho</h1>
+          <p>Estética e Bem-Estar</p>
+        </div>
+      </div>
+
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="main">
+    <section class="bemvindo">
+      <h2>Bem-vinda, <strong>Maria!</strong></h2>
+      <p>Aqui você pode gerenciar seus dados e agendamentos de forma simples e rápida.</p>
+    </section>
+
+    <!-- DADOS PESSOAIS -->
+    <section class="painel">
+      <h3>Seus Dados</h3>
+      <form class="dados-cliente">
+        <div class="info">
+          <label>Nome Completo</label>
+          <input type="text" value="Maria Souza">
+        </div>
+        <div class="info">
+          <label>Email</label>
+          <input type="email" value="maria@email.com">
+        </div>
+        <div class="info">
+          <label>Telefone</label>
+          <input type="text" value="(11) 99999-9999">
+        </div>
+        <div class="info">
+          <label>Data de Nascimento</label>
+          <input type="date" value="1995-03-15">
+        </div>
+
+        <div class="acoes-form">
+          <button type="submit" class="btn">Salvar Alterações</button>
+          <button type="button" class="btn btn-detalhes">Ver Detalhes</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- AGENDAMENTOS -->
+    <section class="agendamentos">
+      <h3>Seus Agendamentos</h3>
+      <ul class="lista-agendamentos">
+        <li>
+          <div>
+            <span class="data">15/11/2025</span> — Limpeza de Pele
+            <p><small>Horário: 14h00 | Profissional: Ana Paula</small></p>
+          </div>
+          <button class="btn btn-cancelar">Cancelar</button>
+        </li>
+        <li>
+          <div>
+            <span class="data">02/12/2025</span> — Massagem Relaxante
+            <p><small>Horário: 10h30 | Profissional: Bruna</small></p>
+          </div>
+          <button class="btn btn-cancelar">Cancelar</button>
+        </li>
+        <li>
+          <div>
+            <span class="data">10/12/2025</span> — Drenagem Linfática
+            <p><small>Horário: 16h00 | Profissional: Júlia</small></p>
+          </div>
+          <button class="btn btn-cancelar">Cancelar</button>
+        </li>
+      </ul>
+
+      <div class="acao-novo">
+        <a href="agendamento.html" class="btn">Fazer Novo Agendamento</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL DE CONFIRMAÇÃO -->
+  <div class="modal" id="modalCancelamento">
+    <div class="modal-content">
+      <h4>Cancelar Agendamento</h4>
+      <p>Você tem certeza de que deseja cancelar este agendamento?</p>
+      <div class="modal-botoes">
+        <button id="confirmarCancelamento" class="btn btn-confirmar">Sim, cancelar</button>
+        <button id="fecharModal" class="btn btn-voltar">Voltar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Clínica Adreza Carvalho. Todos os direitos reservados.</p>
+    <nav>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a>
+    </nav>
+  </footer>
+
+  <!-- SCRIPT EXTERNO -->
+  <script src="script.js"></script>
+</body>
+</html>
