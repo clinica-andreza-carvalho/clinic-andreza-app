@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Administrador</title>
+  <link rel="stylesheet" href="adm.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="logo">Admin</h2>
+      <nav>
+        <button class="menu-btn" onclick="showPage('dashboard')">🏠 Dashboard</button>
+        <button class="menu-btn" onclick="showPage('produtos')">📦 Produtos</button>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="content">
+
+      <!-- DASHBOARD -->
+      <section id="dashboard" class="page active">
+        <h1>Dashboard</h1>
+        <div class="cards">
+          <div class="card">
+            <h3>Total de Pedidos</h3>
+            <p class="valor">320</p>
+          </div>
+          <div class="card">
+            <h3>Pedidos Cancelados</h3>
+            <p class="valor cancelado">24</p>
+          </div>
+        </div>
+
+        <h2>Agendamentos Recentes</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Tipo</th>
+              <th>Dia</th>
+              <th>Cliente</th>
+              <th>Status</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Consulta</td>
+              <td>06/11/2025</td>
+              <td>Lucas Santos</td>
+              <td><span class="status finalizado">Finalizado</span></td>
+              <td>R$ 150,00</td>
+            </tr>
+            <tr>
+              <td>Retorno</td>
+              <td>08/11/2025</td>
+              <td>Maria Silva</td>
+              <td><span class="status andamento">Em andamento</span></td>
+              <td>R$ 120,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- PRODUTOS -->
+      <section id="produtos" class="page">
+        <h1>Produtos</h1>
+        <div id="produtosGrid" class="produtos-grid"></div>
+      </section>
+
+      <!-- DETALHES / PERSONALIZAÇÃO -->
+      <section id="detalhes-produto" class="page">
+        <button class="voltar" onclick="showPage('produtos')">← Voltar</button>
+        <h1 id="formTitle">Editar Produto</h1>
+        <div class="produto-detalhe-container">
+          <div class="produto-form">
+            <label>Product Name</label>
+            <input type="text" id="nomeProduto">
+
+            <label>Description</label>
+            <textarea id="descricaoProduto" rows="3"></textarea>
+
+            <div class="linha-dupla">
+              <div>
+                <label>Category</label>
+                <input type="text" id="categoriaProduto">
+              </div>
+              <div>
+                <label>Brand Name</label>
+                <input type="text" id="marcaProduto">
+              </div>
+            </div>
+
+            <div class="linha-dupla">
+              <div>
+                <label>SKU</label>
+                <input type="text" id="skuProduto">
+              </div>
+              <div>
+                <label>Stock Quantity</label>
+                <input type="number" id="estoqueProduto">
+              </div>
+            </div>
+
+            <div class="linha-dupla">
+              <div>
+                <label>Regular Price</label>
+                <input type="text" id="precoProduto">
+              </div>
+              <div>
+                <label>Sale Price</label>
+                <input type="text" id="precoPromocionalProduto">
+              </div>
+            </div>
+
+            <label>Tag</label>
+            <input type="text" id="tagsProduto" placeholder="Separe por vírgula">
+          </div>
+
+          <div class="produto-galeria">
+            <img id="imgProduto" src="https://via.placeholder.com/300" alt="Produto">
+            <div class="upload-area" onclick="document.getElementById('uploadInput').click()">
+              <p>Drop your image here, or browse<br><small>jpeg, png are allowed</small></p>
+              <input type="file" id="uploadInput" accept="image/*" style="display:none">
+            </div>
+          </div>
+        </div>
+
+        <div class="botoes-produto">
+          <button class="update" onclick="updateProduto()">UPDATE</button>
+          <button class="delete" onclick="deleteProduto()">DELETE</button>
+          <button class="cancel" onclick="showPage('produtos')">CANCEL</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="adm.js"></script>
+</body>
+</html>
