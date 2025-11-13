@@ -12,8 +12,10 @@
     <aside class="sidebar">
       <h2 class="logo">Admin</h2>
       <nav>
-        <button class="menu-btn" onclick="showPage('dashboard')">🏠 Dashboard</button>
-        <button class="menu-btn" onclick="showPage('produtos')">📦 Produtos</button>
+        <button class="menu-btn" onclick="showPage('dashboard')">
+          <img src="/src/assets/imagens-adm/Home 1.png" alt="" class="icons"> Dashboard</button>
+        <button class="menu-btn" onclick="showPage('produtos')"> 
+          <img src="/src/assets/imagens-adm/Badge.png" alt="" class="icons">Produtos</button>
       </nav>
     </aside>
 
@@ -50,17 +52,24 @@
               <td>Consulta</td>
               <td>06/11/2025</td>
               <td>Lucas Santos</td>
-              <td><span class="status finalizado">Finalizado</span></td>
+              <td><span class="status finalizado"><span class="dot"></span> Finalizado</span></td>
               <td>R$ 150,00</td>
             </tr>
             <tr>
               <td>Retorno</td>
               <td>08/11/2025</td>
               <td>Maria Silva</td>
-              <td><span class="status andamento">Em andamento</span></td>
+              <td><span class="status andamento"><span class="dot"></span> Andamento</span></td>
               <td>R$ 120,00</td>
             </tr>
-          </tbody>
+            <tr>
+              <td>Drenagem Linfatica</td>
+              <td>13/11/2025</td>
+              <td>Mariana Torres</td>
+              <td><span class="status cancelado"><span class="dot"></span> Cancelado</span></td>
+              <td>R$ 150,00</td>
+            </tr>
+          </tbody>          
         </table>
       </section>
 

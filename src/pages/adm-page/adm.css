@@ -106,18 +106,31 @@
   }
   
   .status {
-    padding: 5px 10px;
-    border-radius: 8px;
-    color: #fff;
-    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
   }
   
-  .status.finalizado {
-    background: #27ae60;
+  .status .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
   }
   
-  .status.andamento {
-    background: #f39c12;
+  .status.finalizado .dot {
+    background-color: #3b5bdb;
+  }
+  
+  .status.andamento .dot {
+    background-color: #f59f00;
+  }
+  
+  .status.cancelado .dot {
+    background-color: #f50000;
   }
   
   /* Produtos */
@@ -277,3 +290,9 @@
     cursor: pointer;
   }
   
+  /* .icons {
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 10px;
+  } */
