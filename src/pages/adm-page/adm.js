@@ -45,10 +45,7 @@ function showPage(pageId) {
     document.getElementById("formTitle").textContent = "Editar Produto";
     document.getElementById("nomeProduto").value = p.nome;
     document.getElementById("descricaoProduto").value = p.descricao;
-    document.getElementById("categoriaProduto").value = p.categoria;
     document.getElementById("marcaProduto").value = p.marca;
-    document.getElementById("skuProduto").value = p.sku;
-    document.getElementById("estoqueProduto").value = p.estoque;
     document.getElementById("precoProduto").value = p.preco;
     document.getElementById("precoPromocionalProduto").value = p.precoPromo;
     document.getElementById("tagsProduto").value = p.tags;
@@ -64,10 +61,7 @@ function showPage(pageId) {
   
     document.getElementById("nomeProduto").value = "";
     document.getElementById("descricaoProduto").value = "";
-    document.getElementById("categoriaProduto").value = "";
     document.getElementById("marcaProduto").value = "";
-    document.getElementById("skuProduto").value = "";
-    document.getElementById("estoqueProduto").value = "";
     document.getElementById("precoProduto").value = "";
     document.getElementById("precoPromocionalProduto").value = "";
     document.getElementById("tagsProduto").value = "";
@@ -83,10 +77,7 @@ function showPage(pageId) {
     const novoProduto = {
       nome: document.getElementById("nomeProduto").value,
       descricao: document.getElementById("descricaoProduto").value,
-      categoria: document.getElementById("categoriaProduto").value,
       marca: document.getElementById("marcaProduto").value,
-      sku: document.getElementById("skuProduto").value,
-      estoque: document.getElementById("estoqueProduto").value,
       preco: document.getElementById("precoProduto").value,
       precoPromo: document.getElementById("precoPromocionalProduto").value,
       tags: document.getElementById("tagsProduto").value,
